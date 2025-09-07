@@ -1,0 +1,25 @@
+const sectionA = ["Anna", "Brian", "Charlie"];
+const sectionB = ["Diana", "Ethan"];
+
+allStudents = [...sectionA, ...sectionB, "Faith"];
+console.log("All Students:" ,allStudents);
+
+const car = {
+  brand: "Toyota",
+  model: "Corolla",
+  year: 2020,
+  owner: {
+    name: "Alex",
+    age: 30,
+  },
+};
+
+const { brand, model, owner: { name, age } } = car;
+console.log("Car Brand:", brand);
+console.log("Car Model:", model);
+console.log("Owner Name:", name);
+console.log("Owner Age:", age);
+
+const grades = [75, 80, 90];
+const updatedGrades = grades.map(grade => grade + 5);
+console.log("Updated Grades:", updatedGrades);
