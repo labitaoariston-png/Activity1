@@ -1,25 +1,16 @@
-const sectionA = ["Anna", "Brian", "Charlie"];
-const sectionB = ["Diana", "Ethan"];
+# Group Project
 
-allStudents = [...sectionA, ...sectionB, "Faith"];
-console.log("All Students:" ,allStudents);
+## 📌 Project Overview
 
-const car = {
-  brand: "Toyota",
-  model: "Corolla",
-  year: 2020,
-  owner: {
-    name: "Alex",
-    age: 30,
-  },
-};
+This is a collaborative project developed by a team of four students as part of a Git and GitHub learning activity. The objective is to practice using Git branches, pull requests, code reviews, and collaboration workflows on GitHub.
 
-const { brand, model, owner: { name, age } } = car;
-console.log("Car Brand:", brand);
-console.log("Car Model:", model);
-console.log("Owner Name:", name);
-console.log("Owner Age:", age);
+Each team member had a specific role:
+- **Repo Owner**: Created the repository and managed collaborators.
+- **Feature Developer 1**: Worked on Feature A (`about.md`).
+- **Feature Developer 2**: Worked on Feature B (`contact.md`).
+- **Reviewer/Merger**: Reviewed code, managed pull requests, and prepared the `README.md`.
 
-const grades = [75, 80, 90];
-const updatedGrades = grades.map(grade => grade + 5);
-console.log("Updated Grades:", updatedGrades);
+The project includes:
+- Separate feature branches for different tasks
+- Pull requests for code review
+- A finalized `main` branch with all features merged
